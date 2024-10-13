@@ -1,0 +1,65 @@
+sunderkhal_sports_club:
+  title: "Sunderkhal Sports Club"
+  meta:
+    charset: "UTF-8"
+    viewport: "width=device-width, initial-scale=1.0"
+  styles:
+    body:
+      background: "linear-gradient(135deg, #e0eafc, #cfdef3)"
+      margin: 0
+      padding: "20px"
+      color: "#333"
+    header:
+      background: "linear-gradient(135deg, #4c6ef5, #b9d6ff)"
+      padding: "20px"
+      border_radius: "10px"
+      text_align: "center"
+      box_shadow: "0 4px 20px rgba(0, 0, 0, 0.1)"
+    header_h1:
+      font_size: "2.5rem"
+      color: "#fff"
+      text_shadow: "1px 1px 2px rgba(0, 0, 0, 0.5)"
+    header_p:
+      font_size: "1.2rem"
+      color: "#f9f9f9"
+    main:
+      margin_top: "20px"
+    sports_section:
+      text_align: "center"
+      h2:
+        font_size: "2rem"
+        color: "#4c6ef5"
+        margin_bottom: "20px"
+    sports_list:
+      display: "flex"
+      flex_wrap: "wrap"
+      justify_content: "center"
+      gap: "15px"
+    sport_item:
+      background: "linear-gradient(135deg, #ffe4b5, #ffeb3b)"
+      border_radius: "10px"
+      padding: "20px"
+      box_shadow: "0 4px 10px rgba(0, 0, 0, 0.15)"
+      transition: "transform 0.3s, box-shadow 0.3s"
+      hover:
+        transform: "translateY(-5px)"
+        box_shadow: "0 8px 15px rgba(0, 0, 0, 0.2)"
+    footer:
+      text_align: "center"
+      margin_top: "30px"
+      font_size: "1rem"
+      color: "#555"
+  header_content:
+    h1: "Welcome to Sunderkhal Sports Club"
+    p: "Promoting sports for all in Sunderkhal!"
+  main_content:
+    sports_section:
+      title: "Our Sports"
+      sports:
+        - name: "🏏 Cricket"
+        - name: "🏐 Volleyball"
+        - name: "🏓 Indoor Sports"
+        - name: "🏞️ Outdoor Sports"
+        - name: "💻 Digital Sports"
+  footer_content:
+    p: "Contact us for more information."
